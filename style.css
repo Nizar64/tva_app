@@ -20,7 +20,8 @@ body {
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0,0,0,0.1);
-    background-image: url("./assets/tva2.png.webp");
+    background-image: url("./assets/tva2.webp");
+    
 }
 
 h1 {
@@ -63,7 +64,9 @@ h1 i {
     justify-content: space-between;
     margin-bottom: 30px;
     padding: 20px;
-    background-color: #f8f9fa;
+    /* background-color: #f8f9fa; */
+    background-color: #1b2938;
+    background: linear-gradient(90deg, rgba(27, 41, 56, 1) 100%, rgba(87, 199, 133, 1) 100%, rgba(237, 221, 83, 1) 100%);
     border-radius: 8px;
     border: 1px solid #e9ecef;
 }
@@ -221,7 +224,10 @@ tbody tr:hover {
     text-align: right;
     font-size: 22px;
     font-weight: bold;
-    color: #2c3e50;
+    /* color: #2c3e50; */
+    color: white;
+    background-color: #1b2938;
+    background: linear-gradient(90deg, rgba(27, 41, 56, 1) 100%, rgba(87, 199, 133, 1) 100%, rgba(237, 221, 83, 1) 100%);
     padding: 20px;
     background-color: #f8f9fa;
     border-radius: 8px;
@@ -412,7 +418,9 @@ tbody tr:hover {
     align-items: center;
     margin-bottom: 30px;
     padding: 20px;
-    background-color: #f8f9fa;
+    /* background-color: #f8f9fa; */
+    background: #1b2938;
+    background: linear-gradient(90deg, rgba(27, 41, 56, 1) 100%, rgba(87, 199, 133, 1) 100%, rgba(237, 221, 83, 1) 100%);
     border-radius: 8px;
     border: 1px solid #e9ecef;
    
