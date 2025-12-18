@@ -1,6 +1,6 @@
 <?php
 // includes/header.php
-// echo password_hash(" afpa ", PASSWORD_DEFAULT);
+// echo password_hash("  ", PASSWORD_DEFAULT);
 ?>
 <!DOCTYPE html>
 <html lang="fr">
