@@ -269,7 +269,9 @@ tbody tr:hover {
 }
 
 .modal-header {
-    background-color: #3498db;
+    /* background-color: #3498db; */
+    background-color: #1b2938;
+    background: linear-gradient(90deg, rgba(27, 41, 56, 1) 100%, rgba(87, 199, 133, 1) 100%, rgba(237, 221, 83, 1) 100%);
     color: white;
     padding: 20px;
     display: flex;
@@ -295,6 +297,7 @@ tbody tr:hover {
 
 .modal-body {
     padding: 30px;
+    background-color: #27ae60;
 }
 
 .form-group {

@@ -35,7 +35,7 @@ $produits = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <div class="user-info">
     <img src="C:\wamp64\www\tva_users\assets\tva.avif" alt="">
     <div class="user-welcome">
-        <h2 style= color:white;><i class="fas fa-user-circle"></i> Bienvenue, <?php echo htmlspecialchars(Session::get('username')); ?>!</h2>
+        <h2 style= color:white;><i class="fas fa-user-circle" style= color:white;></i> Bienvenue, <?php echo htmlspecialchars(Session::get('username')); ?>!</h2>
         <p class="user-role" style= color:white;>Rôle: <span class="role-badge role-<?php echo Session::get('role'); ?>">
             <?php echo Session::get('role'); ?>
         </span></p>

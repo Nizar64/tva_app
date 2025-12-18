@@ -13,7 +13,7 @@
 </head>
 <body>
     <div class="container">
-        <h1><i class="fas fa-calculator"></i> Tableau Calcul TVA </h1>
+        <h1><i class="fas fa-calculator" style= color:white;></i> Tableau Calcul TVA </h1>
         
         <?php if(isset($_SESSION['message'])): ?>
             <div class="alert alert-<?php echo $_SESSION['message_type']; ?>">
